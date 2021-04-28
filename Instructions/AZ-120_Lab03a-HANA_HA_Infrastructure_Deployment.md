@@ -104,7 +104,7 @@ In this exercise, you will deploy Azure infrastructure compute components necess
 
 1.  On the **Edit template** blade, apply the following changes and select **Save**:
 
-    -   in the line **197**, replace `"dbVMSize": "Standard_E8s_v3",` with `"dbVMSize": "Standard_D4s_v3",`
+    -   in the line **197**, replace `"dbVMSize": "Standard_E8s_v3",` with `"dbVMSize": "Standard_D4s_v3",` --> Standard_DS11_v2 (because of the disk amount - trPhan)
 
     -   in the line **198**, replace `"ascsVMSize": "Standard_D2s_v3",` with `"ascsVMSize": "Standard_DS1_v2",`
 
